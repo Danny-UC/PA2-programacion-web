@@ -1,0 +1,117 @@
+.app-inventario {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 24px;
+  font-family: system-ui, sans-serif;
+  color: #cc4848;
+}
+
+.app-inventario header {
+  margin-bottom: 24px;
+}
+
+.app-inventario h1 {
+  margin: 0 0 10px;
+  font-size: 36px;
+}
+
+.app-inventario p {
+  margin: 0;
+  color: #555;
+}
+
+.inventario-formulario,
+.inventario-lista {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 20px;
+}
+
+.inventario-formulario form {
+  display: grid;
+  gap: 16px;
+}
+
+.inventario-formulario label {
+  display: block;
+  font-weight: 600;
+  color: #333;
+}
+
+.inventario-formulario input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.inventario-formulario input:focus {
+  outline: none;
+  border-color: #7c3aed;
+}
+
+.inventario-formulario button {
+  padding: 10px 16px;
+  background: #7c3aed;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.inventario-formulario button:hover {
+  background: #5b21b6;
+}
+
+.inventario-lista table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+}
+
+.inventario-lista th,
+.inventario-lista td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+}
+
+.inventario-lista th {
+  font-weight: 700;
+  color: #333;
+}
+
+.inventario-lista tbody tr:hover {
+  background: #f9f9ff;
+}
+
+.inventario-lista button {
+  padding: 8px 12px;
+  border: 1px solid #ffffff;
+  background: #831d87;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.inventario-lista button:hover {
+  background: #505093;
+}
+
+@media (max-width: 720px) {
+  .app-inventario {
+    padding: 16px;
+  }
+
+  .inventario-formulario,
+  .inventario-lista {
+    padding: 16px;
+  }
+
+  .inventario-lista th,
+  .inventario-lista td {
+    padding: 10px;
+  }
+}
